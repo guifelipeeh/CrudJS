@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.js" integrity="sha512-8Z5++K1rB3U+USaLKG6oO8uWWBhdYsM3hmdirnOEWp8h2B1aOikj5zBzlXs8QOrvY9OxEnD2QDkbSKKpfqcIWw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+ 	<script src="funcoes.js"></script>
+ <link rel="stylesheet" type="text/css" href="estilo.css" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Index</title>
+</head>
+<body>
+	<div class="container">
+		<label for="formFileLg" class="form-label">insira o arquivo</label>
+        <input class="form-control form-control-lg" id="Arquivo" type="file" name="Arquivo">
+         <br>
+        <button onclick="receberArq()" type="button"class="btn btn-secondary">Enviar</button>
+        <br>
+	</div>
+	
+	<div class="container">
+    <div id="mensagemErro" class="alert alert-danger" style="display: none;"></div>
+    </div>	
+    
+   <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">nTransacao</th>
+      <th scope="col">data</th>
+      <th scope="col">descProduto</th>
+      <th scope="col">valor</th>
+      <th scope="col">nomeVendedor</th>
+    
+    </tr>
+  </thead>
+  <tbody id="linhas">
+    
+  </tbody>
+</table>
+</body>
+</html>

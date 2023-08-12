@@ -1,0 +1,16 @@
+----------------------------------------------------------------
+Sun Jul 30 13:31:40 BRT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.16.1.1 - (1901046): instance a816c00e-0189-a7a4-2571-0000025754a8 
+on database directory memory:C:\Users\usuario\Desktop\aplicaçõesSpringJava\prova\b3ce363e-4d03-41cc-8f4c-2168ab0d2757 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2f333739 
+Loaded from file:/C:/Users/usuario/.gradle/caches/modules-2/files-2.1/org.apache.derby/derby/10.16.1.1/f9ca2054b3e33ec3f3f19df4a7490352d82de54a/derby-10.16.1.1.jar
+java.vendor=Eclipse Adoptium
+java.runtime.version=17.0.7+7
+user.dir=C:\Users\usuario\Desktop\aplicaçõesSpringJava\prova
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Sun Jul 30 13:31:41 BRT 2023:
+Shutting down instance a816c00e-0189-a7a4-2571-0000025754a8 on database directory memory:C:\Users\usuario\Desktop\aplicaçõesSpringJava\prova\b3ce363e-4d03-41cc-8f4c-2168ab0d2757 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2f333739 

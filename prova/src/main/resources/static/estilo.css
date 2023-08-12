@@ -1,0 +1,14 @@
+.container{
+    margin:0 auto;
+    margin-top:15%;
+    
+    
+}
+.form-label{
+    font-family:arial;
+    font-size: 5vh;
+
+}
+.btn{
+  width: 100px;
+}
